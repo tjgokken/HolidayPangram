@@ -1,0 +1,39 @@
+﻿@page
+@model HolidayPangram.Web.Pages.IndexModel
+@{
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <!-- Header -->
+    <div class="header">
+        <h1 class="title">Holiday Pangram Generator</h1>
+        <div class="button-group">
+            <a href="?theme=christmas" 
+               class="theme-button christmas @(Model.CurrentTheme == "christmas" ? "active" : "")">
+                <span>🎄</span>
+                <span>Christmas</span>
+            </a>
+            <a href="?theme=easter"
+               class="theme-button easter @(Model.CurrentTheme == "easter" ? "active" : "")">
+                <span>🥚</span>
+                <span>Easter</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <p class="pangram">
+            @Model.CurrentPangram
+        </p>
+
+        <a href="?theme=@Model.CurrentTheme" class="generate-button">
+            @if(Model.CurrentTheme == "christmas") {
+                <span>🎄 Generate New Pangram 🎄</span>
+            } else {
+                <span>🥚 Generate New Pangram 🥚</span>
+            }
+        </a>
+    </div>
+</div>

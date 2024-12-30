@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidayPangram.AppHost", "HolidayPangram.AppHost\HolidayPangram.AppHost.csproj", "{645AF944-9BDF-4280-80C7-DBCAA5CDAADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidayPangram.ServiceDefaults", "HolidayPangram.ServiceDefaults\HolidayPangram.ServiceDefaults.csproj", "{36CBAD6E-72E1-4BEA-8410-672BC4863EF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidayPangram.Web", "HolidayPangram.Web\HolidayPangram.Web.csproj", "{DD8B6E56-7019-4386-A74E-F017BC831791}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{645AF944-9BDF-4280-80C7-DBCAA5CDAADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{645AF944-9BDF-4280-80C7-DBCAA5CDAADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{645AF944-9BDF-4280-80C7-DBCAA5CDAADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{645AF944-9BDF-4280-80C7-DBCAA5CDAADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36CBAD6E-72E1-4BEA-8410-672BC4863EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36CBAD6E-72E1-4BEA-8410-672BC4863EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36CBAD6E-72E1-4BEA-8410-672BC4863EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36CBAD6E-72E1-4BEA-8410-672BC4863EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD8B6E56-7019-4386-A74E-F017BC831791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD8B6E56-7019-4386-A74E-F017BC831791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD8B6E56-7019-4386-A74E-F017BC831791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD8B6E56-7019-4386-A74E-F017BC831791}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
